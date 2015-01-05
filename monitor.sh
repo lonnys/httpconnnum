@@ -8,7 +8,7 @@ LAST_TIME =$(date + %s)
 
 while true
 do
-    HTTP_CONN =$(netstat - ntp | grep ":80" | wc - l)
+    HTTP_CONN =$(netstat -ntp | grep ":80" | wc -l)
     DATE =$(date + %Y / %m / %d\ % H: % M: % S)
     DAY =$(date + %Y % m % d)
     HOUR =$(date + %Y % m % d % H)
