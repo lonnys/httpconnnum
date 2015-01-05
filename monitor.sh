@@ -2,7 +2,7 @@
 #  Encoding: utf-8
 #  Author:luol2@knownsec.com
 #  Description:
-#     此脚本用于实时监控节点中HTTP连接数
+#     此脚本用于实时监控服务器HTTP连接数
 MONITOR_DIR = "/root/monitor"
 LAST_TIME =$(date + %s)
 
